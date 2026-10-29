@@ -31,7 +31,7 @@ git commit -m "docs: 整理主机基线检查脚本、判定方法和复测案�
 本项目的仓库名为`safe-check`（展示名称safe check），已由所有者指定为公开。首次创建空仓库时可不预置README，减少首次历史冲突。当前仓库地址如下：
 
 ```powershell
-git remote add origin https://github.com/2682812882npc-star/safe-check.git
+git remote add origin https://github.com/niko-ps/safe-check.git
 git remote -v
 git push -u origin main
 ```
@@ -55,3 +55,7 @@ git ls-remote origin refs/heads/main
 比较大的改动先建分支。AI自动commit/push前，应约定哪些目录可提交、如何验证、哪些内容只能本地存。本次首次发布由所有者单独指定，没有设置后续自动上传。
 
 首次公开提交使用本仓库范围内的GitHub隐私邮箱；未修改本机全局Git身份。公开用户名、提交时间和提交内容仍可在GitHub查看。
+
+## 账号下的副本
+
+2026-10-29 按所有者要求，将 `2682812882npc-star/safe-check` 复制到 `niko-ps/safe-check`，保留原提交历史。原账号仓库继续保留；本副本的后续推送使用上述新地址。复制与文档地址更新不代表重新完成虚拟机实测。
